@@ -10,7 +10,7 @@ const AboutNews = () => {
   useEffect(() => {
     axios(`https://613f693be9d92a0017e176d2.mockapi.io/news/${params.id}`)
       .then(({data}) => setAboutNews(data))
-  }, [])
+  }, [params.id])
   return (
     <Layout>
       <div className='row'>
