@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='d-flex justify-content-between align-items-center'>
-        <a href='#'><i className="fas fa-globe me-2"></i>English</a>
+        <a href='https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2FKunduz-rahat%2Fnews_portal'><i className="fas fa-globe me-2"></i>English</a>
         <nav>
           <NavLink exact to="/" className='nav_link me-3'>Home</NavLink>
           <NavLink to="/news" className='nav_link me-3'>News</NavLink>
